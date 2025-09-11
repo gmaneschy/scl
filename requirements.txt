@@ -1,0 +1,13 @@
+Flask
+flask-login
+flask-security
+
+sentry-sdk[flask]
+
+celery[librabbitmq,redis,auth,msgpack] #Gerenciador de tarefas assíncronas
+#Tarefas assíncronas
+Flask-Mail #Envio de e-mails
+ #Envio de mensagens via Whatsapp
+
+
+weasyprint #Geração de boletins em pdf
