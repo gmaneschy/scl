@@ -2,12 +2,14 @@ Flask
 flask-login
 flask-security
 
-sentry-sdk[flask]
+sentry-sdk[flask] #Logging
 
 celery[librabbitmq,redis,auth,msgpack] #Gerenciador de tarefas assíncronas
 #Tarefas assíncronas
 Flask-Mail #Envio de e-mails
- #Envio de mensagens via Whatsapp
+#WPPConnect #Envio de mensagens via Whatsapp
 
+#Charts.js/Recharts #Gráficos dinâmicos e responsivos
+#Matplotlib #Gráficos não responsivos
 
 weasyprint #Geração de boletins em pdf

@@ -13,7 +13,12 @@ Telas
                         Preferência de notificação (E-mail, sms, mensagem por whatsapp)
 
         Tela de Avisos
-            Criar avisos
+            Sistema de avisos/mensagens
+                Notificação por sms, e-mail ou mensagem
+                    Lançamento de nota
+                    Falta
+                    Falta justificada
+                    Avisos
 
     Tela de professores
         Disciplinas ministradas
@@ -38,6 +43,7 @@ Usuários
         - pode cadastrar alunos
         - pode cadastrar disciplinas
         - pode alterar notas
+        - pode gerar notificações
 
     Professores
         - pode criar avaliações
@@ -52,10 +58,4 @@ Usuários
         - pode acessar quadro de trabalhos e atividades
         - podem receber e acessar avisos da escola
 
-Comunicação
-    Sistema de avisos/mensagens
-        Notificação por sms, e-mail ou mensagem
-            Lançamento de nota
-            Falta
-            Falta justificada
-            Avisos
+
