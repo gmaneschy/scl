@@ -26,8 +26,19 @@ Telas
             Turmas
                 Lista de presença
 
+    Tela de Financeiro
+        Contas a pagar:
+            Folha de pagamento
+            Água
+            Luz
+            Internet
+            Manutenção
+        Contas a receber:
+            Mensalidades
+
+
     Tela de Relatórios
-        Desempenho por turma
+        Desempenho por turma:
             Número de alunos por turma
             Média de notas
             Média de presença
@@ -37,10 +48,12 @@ Telas
             Média de presença
 
 
+
+
 Usuários
     Diretoria
-        - pode cadastrar professores
-        - pode cadastrar alunos
+        - pode cadastrar professores e criar senhas automáticas para eles
+        - pode cadastrar alunos e criar senhas automáticas para eles
         - pode cadastrar disciplinas
         - pode alterar notas
         - pode gerar notificações
