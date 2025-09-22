@@ -10,9 +10,17 @@ sentry_sdk.init(
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/login")
+def login():
+    return render_template("login.html")
+
+@app.route("/homepage")
 def homepage():
     return render_template("homepage.html")
+
+@app.route("/tela_cadastro")
+def tela_cadastro():
+    return render_template("tela_cadastro.html")
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=8000)

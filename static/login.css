@@ -1,0 +1,545 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/spectral/v15/rnCs-xNNww_2s0amA9vmtm3MafadWQ.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/spectral/v15/rnCs-xNNww_2s0amA9vmtm3FafadWQ.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/spectral/v15/rnCs-xNNww_2s0amA9vmtm3OafadWQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/spectral/v15/rnCs-xNNww_2s0amA9vmtm3PafadWQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/spectral/v15/rnCs-xNNww_2s0amA9vmtm3BafY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+
+/* login_page */
+.loginpage-d2bee7c2ab73 {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background: linear-gradient(to bottom, rgba(11, 181, 216, 1) 0%,rgba(155, 174, 174, 1) 100%);
+  border-radius: 0px 0px 0px 0px;
+  overflow: hidden;
+  justify-items: start;
+  z-index: 0;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+/* login_form */
+.loginform-d2bee7c2ab75 {
+  position: absolute;
+  left: 625.5px;
+  top: 360px;
+  width: 669px;
+  height: 360px;
+  background: #679bf7FF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: -10px 10px 4px 0px #00000033;
+  overflow: hidden;
+}
+
+/* E-MAIL */
+.e-m-a-i-l-d2bee7c2ab7a {
+  position: absolute;
+  left: 124.5px;
+  top: 62px;
+  height: 20px;
+}
+.e-m-a-i-l-d2bee7c2ab7a .root-0 {
+
+
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.e-m-a-i-l-d2bee7c2ab7a .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+
+  margin-right: 1px;
+  vertical-align: top;
+}
+.e-m-a-i-l-d2bee7c2ab7a .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.e-m-a-i-l-d2bee7c2ab7a .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* email_field */
+.emailfiel-d2bee7c2ab79 {
+  position: absolute;
+  left: 124.5px;
+  top: 82px;
+  width: 420px;
+  height: 60px;
+  background: #e2edffFF;
+  border: 3px solid #000000FF;
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
+/* SENHA */
+.s-e-n-h-a-d2bee7c2ab78 {
+  position: absolute;
+  left: 124.5px;
+  top: 162px;
+  height: 20px;
+}
+.s-e-n-h-a-d2bee7c2ab78 .root-0 {
+
+
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.s-e-n-h-a-d2bee7c2ab78 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+
+  margin-right: 1px;
+  vertical-align: top;
+}
+.s-e-n-h-a-d2bee7c2ab78 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.s-e-n-h-a-d2bee7c2ab78 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* password_field */
+.passwordf-d2bee7c2ab77 {
+  position: absolute;
+  left: 124.5px;
+  top: 182px;
+  width: 420px;
+  height: 60px;
+  background: #e2edffFF;
+  border: 3px solid #000000FF;
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
+/* button_entrar */
+.buttonent-d026a14a1f2e > svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px,0px);
+}
+.buttonent-d026a14a1f2e {
+  position: absolute;
+  left: 273.5px;
+  top: 279px;
+  width: 122px;
+  height: 48px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* ENTRAR */
+.e-n-t-r-a-r-d027ed1eabfa {
+  position: absolute;
+  left: 22px;
+  top: 14px;
+  height: 22px;
+}
+.e-n-t-r-a-r-d027ed1eabfa .root-0 {
+
+
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.e-n-t-r-a-r-d027ed1eabfa .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+
+  margin-right: 1px;
+  vertical-align: top;
+}
+.e-n-t-r-a-r-d027ed1eabfa .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.e-n-t-r-a-r-d027ed1eabfa .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* ESQUECEU SUA SENHA? */
+.e-s-q-u-e-c-e-u-s-d2bee7c2ab74 {
+  position: absolute;
+  left: 1093px;
+  top: 747px;
+  height: 20px;
+}
+.e-s-q-u-e-c-e-u-s-d2bee7c2ab74 .root-0 {
+
+
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.e-s-q-u-e-c-e-u-s-d2bee7c2ab74 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+
+  margin-right: 1px;
+  vertical-align: top;
+}
+.e-s-q-u-e-c-e-u-s-d2bee7c2ab74 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.e-s-q-u-e-c-e-u-s-d2bee7c2ab74 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* recuperacao */
+.recuperaca-d2bee7c2ab6d {
+  position: absolute;
+  left: 0px;
+  top: -341px;
+  width: 669px;
+  height: 284px;
+  background: #679bf7FF;
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
+/* RECUPERAÇÃO DE SENHA */
+.r-e-c-u-p-e-r-a-d2bee7c2ab71 {
+  position: absolute;
+  left: 38px;
+  top: 25px;
+  height: 29px;
+}
+.r-e-c-u-p-e-r-a-d2bee7c2ab71 .root-0 {
+
+
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.r-e-c-u-p-e-r-a-d2bee7c2ab71 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+
+  margin-right: 1px;
+  vertical-align: top;
+}
+.r-e-c-u-p-e-r-a-d2bee7c2ab71 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.r-e-c-u-p-e-r-a-d2bee7c2ab71 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* E-MAIL */
+.e-m-a-i-l-d2bee7c2ab70 {
+  position: absolute;
+  left: 138px;
+  top: 75px;
+  height: 20px;
+}
+.e-m-a-i-l-d2bee7c2ab70 .root-0 {
+
+
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.e-m-a-i-l-d2bee7c2ab70 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+
+  margin-right: 1px;
+  vertical-align: top;
+}
+.e-m-a-i-l-d2bee7c2ab70 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.e-m-a-i-l-d2bee7c2ab70 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* email_field */
+.emailfiel-d2bee7c2ab6f {
+  position: absolute;
+  left: 125px;
+  top: 95px;
+  width: 420px;
+  height: 60px;
+  background: #e2edffFF;
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
+/* button_recuperacao */
+.buttonrec-d028aef10278 {
+  position: absolute;
+  left: 262px;
+  top: 196px;
+  width: 146px;
+  height: 48px;
+  background: #e2edffFF;
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
+/* CONFIRMAR */
+.c-o-n-f-i-r-m-a-r-d028aef1027d {
+  position: absolute;
+  left: 14.5px;
+  top: 13px;
+  height: 22px;
+}
+.c-o-n-f-i-r-m-a-r-d028aef1027d .root-0 {
+
+
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.c-o-n-f-i-r-m-a-r-d028aef1027d .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+
+  margin-right: 1px;
+  vertical-align: top;
+}
+.c-o-n-f-i-r-m-a-r-d028aef1027d .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.c-o-n-f-i-r-m-a-r-d028aef1027d .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 18px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* verifique */
+.verifique-d2bee7c2ab6b {
+  position: absolute;
+  left: 804px;
+  top: -279px;
+  width: 476px;
+  height: 157px;
+  background: #679bf7FF;
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
+/* VERIFIQUE SEU E-MAIL */
+.v-e-r-i-f-i-q-u-e-d2bee7c2ab6c {
+  position: absolute;
+  left: 91px;
+  top: 64px;
+  width: 294px;
+  height: 29px;
+}
+.v-e-r-i-f-i-q-u-e-d2bee7c2ab6c .root-0 {
+
+
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.v-e-r-i-f-i-q-u-e-d2bee7c2ab6c .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  min-width: 100%;
+  margin-right: 1px;
+  vertical-align: top;
+}
+.v-e-r-i-f-i-q-u-e-d2bee7c2ab6c .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.v-e-r-i-f-i-q-u-e-d2bee7c2ab6c .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: break-spaces;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(0, 0, 0, 1);
+  text-decoration: underline;
+  letter-spacing: 0px;
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 600;
+}
