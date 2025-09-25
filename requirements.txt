@@ -1,8 +1,12 @@
+wtforms
+flask-wtf
 Flask
 flask-login
 flask-security
 
 sentry-sdk[flask] #Logging
+
+mysql-connector-python #db
 
 celery[librabbitmq,redis,auth,msgpack] #Gerenciador de tarefas assíncronas
 #Tarefas assíncronas
